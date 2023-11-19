@@ -5,7 +5,7 @@
 }
 
 /* Custom Properties */
-:root {
+: root {
     --ff-primary: 'Lora', serif;
     --ff-secondary: 'Roboto Slab', serif;
     --fw-reg: 400;
@@ -26,7 +26,7 @@
 }
 
 @media (min-width: 800px) {
-    :root {
+    : root {
         --fs-h1: 4.5rem;
         --fs-h2: 3.75rem;
         --fs-h3: 1.5rem;
@@ -60,7 +60,7 @@ img{
 
 strong { font-weight: var(--fw-bold);}
 
-:focus {
+: focus {
     outline: 3px solid var(--clr-accent);
     outline-offset: 3px;
 }
@@ -80,7 +80,7 @@ strong { font-weight: var(--fw-bold);}
 
 }
 
-.btn:hover {
+.btn: hover {
     transform: scale(1.1);
 }
 
@@ -292,7 +292,7 @@ header {
 
 .my-services {
     background-color: var(--clr-dark);
-    background-image: url(../img/services-bg.jpg);
+    background-image: URL(../img/services-bg.jpg);
     background-size: cover;
     /* background-blend-mode: multiply; */
     color: var(--clr-light);
@@ -302,7 +302,6 @@ header {
 .section__title--services {
     color:  var(--clr-accent);
     position: relative;
-
 }
 
 .section__title--services::after {
@@ -413,7 +412,7 @@ header {
 }
 
 .portfolio__item:focus {
-    position:relative;
+    position: relative;
     z-index: 2;
 }
 
@@ -440,7 +439,7 @@ header {
     font-weight: var(--fw-bold);
 }
 
-.footer__link:hover, 
+.footer__link: hover, 
 .social-list__link:hover {
     opacity: .7;
 }
